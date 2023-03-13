@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Portafolio</title>
+</head>
+
+<body>
+
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'pagina_principal')">Sobre mí</button>
+        <button class="tablinks" onclick="openCity(event, 'pagina_habilidades')">Habilidades</button>
+        <button class="tablinks" onclick="openCity(event, 'pagina_proyectos')">Proyectos</button>
+        <button class="tablinks" onclick="openCity(event, 'pagina_contacto')">Contáctame</button>
+    </div>
+
+    <section id="pagina_principal" class="caja tabcontent">
+
+        <div class="caja_contenido">
+
+            <div class="caja_contenido_principal">
+                <div class="caja_contenido_principal__contenido">
+
+                    <div class="contenido_principal_imagen">
+                        <img class="caja_contenido__imagen" src="images/user_profile.jpg" alt="">
+                    </div>
+
+                    <div class="contenido_principal_textos">
+                        <h1 class="caja_contenido__nombre">JEAN C. TRUJILLO P.</h1>
+                        <br>
+                        <h3 class="caja_contenido__ocupacion">Estudiante</h3>
+                        <br>
+                        <p class="caja_contenido__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ducimus.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="caja_contenido_secundario">
+                <ul class="caja_contenido_secundario__menu">
+                    <li class="caja_contenido_secundario__menu_item" onclick="openCity(event, 'pagina_habilidades')">
+                        Habilidades</li>
+                    <li class="caja_contenido_secundario__menu_item" onclick="openCity(event, 'pagina_proyectos')">
+                        Proyectos </li>
+                    <li class="caja_contenido_secundario__menu_item" onclick="openCity(event, 'pagina_contacto')">
+                        Contáctame</li>
+                </ul>
+            </div>
+
+            <div class="caja_contenido_terciario">
+                <div class="terciario_redes">
+
+                    <div class="tarjeta">
+                        <div class="tarjeta_imagen">
+                            <i class="fa-brands fa-github fa-3x"></i>
+                        </div>
+                        <div class="tarjeta_textos">
+                            <h4><span class="color_verde">@zacksPerez43</span></h4>
+                            <a href="https://github.com/zacksPerez43" class="pagina_link">Github <i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="tarjeta">
+                        <div class="tarjeta_imagen">
+                            <i class="fa-brands fa-instagram fa-3x"></i>
+                        </div>
+                        <div class="tarjeta_textos">
+                            <h4><span class="color_verde">kotscarlos</span></h4>
+                            <a href="https://www.instagram.com/kotscarlos/">Instagram <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                        </div>
+                    </div>
+
+                    <div class="tarjeta">
+                        <div class="tarjeta_imagen">
+                            <i class="fa-brands fa-whatsapp fa-3x"></i>
+                        </div>
+                        <div class="tarjeta_textos">
+                            <h4><span class="color_verde"></span></h4>
+                            <a href="#">Whatsapp <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="pagina_habilidades" class="caja tabcontent">
+
+        <div class="caja_contenido">
+            <div class="caja_contenido_principal">
+                <div class="caja_contenido_principal__contenido">
+                    <h1>Lenguajes de programación:</h1>
+                </div>
+            </div>
+
+    </section>
+
+    <section id="pagina_proyectos" class="caja tabcontent">
+        <div class="caja_contenido">
+            <div class="caja_contenido_principal">
+                <div class="caja_contenido_principal__contenido">
+                    <h1>Proyectos</h1>
+                </div>
+            </div>
+    </section>
+
+    <script src="javascript.js"> </script>
+    <script src="https://kit.fontawesome.com/1a5bcd4a97.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
