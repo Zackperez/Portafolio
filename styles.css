@@ -66,7 +66,7 @@ li{
     margin-left: 10vw;
     background-color: #ffffff;
     border-radius: 10px;
-    
+    max-width: 80vw;    
 }
 
 .caja-contenido-principal{
@@ -76,9 +76,9 @@ li{
 }
 
 .config{
-    padding: 2em;
-    width: 75vw;   
-    height: 55vh;
+    /* padding: 2vw; */
+    /* width: 75vw; */   
+    height: 60vh;
 }
 
 .contenido-informacion{ 
@@ -195,6 +195,8 @@ li{
 
 .habilidades-titulo-principal{
     grid-area: titulo;
+    display: grid;
+    align-content: center;
 }
 
 .habilidades-programacion{
@@ -203,9 +205,8 @@ li{
 
 .programacion-grilla{
     display: flex;
-    justify-content: center;
-    align-items: center;
     align-content: center;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -215,8 +216,8 @@ li{
 
 .frameworks-grilla{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .habilidades-otros{
@@ -225,16 +226,16 @@ li{
 
 .otros-grilla{
     display: flex;
-    flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+    flex-wrap: wrap;
     border-right: 1px solid #444444;
     border-left: 1px solid #444444;
 }
 
 .habilidad__imagen{
-    height: 80px;
-    width: 80px;
+    height: 13vh;
+    width: auto;
 }
 
 .habilidades-titulo__principal{
