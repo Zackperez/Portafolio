@@ -20,91 +20,204 @@
     </div>
 
     <section id="pagina_principal" class="caja tabcontent">
-
-        <div class="caja_contenido">
-
-            <div class="caja_contenido_principal">
-                <div class="caja_contenido_principal__contenido">
-
-                    <div class="contenido_principal_imagen">
-                        <img class="caja_contenido__imagen" src="images/user_profile.jpg" alt="">
+        <div class="caja-contenido-principal config">
+            <div class="contenido-informacion">
+                <div class="caja-contenido-principal__contenido">
+                    <div class="principal-imagen">
+                        <img class="imagen" src="images/user_profile.jpg" alt="">
                     </div>
 
-                    <div class="contenido_principal_textos">
-                        <h1 class="caja_contenido__nombre">JEAN C. TRUJILLO P.</h1>
+                    <div class="principal-textos">
+                        <h1 class="principal-texto__nombre">JEAN C. TRUJILLO P.</h1>
                         <br>
-                        <h3 class="caja_contenido__ocupacion">Estudiante</h3>
+                        <h3 class="principal-texto__ocupacion">Estudiante</h3>
                         <br>
-                        <p class="caja_contenido__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ducimus.</p>
+                        <p class="principal-texto__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Quas, ducimus.</p>
                     </div>
                 </div>
             </div>
 
-            <div class="caja_contenido_secundario">
-                <ul class="caja_contenido_secundario__menu">
-                    <li class="caja_contenido_secundario__menu_item" onclick="openCity(event, 'pagina_habilidades')">
+            <div class="contenido-enlaces">
+                <ul class="enlaces-menu">
+                    <li class="menu__item" onclick="openCity(event, 'pagina_habilidades')">
                         Habilidades</li>
-                    <li class="caja_contenido_secundario__menu_item" onclick="openCity(event, 'pagina_proyectos')">
+                    <li class="menu__item" onclick="openCity(event, 'pagina_proyectos')">
                         Proyectos </li>
-                    <li class="caja_contenido_secundario__menu_item" onclick="openCity(event, 'pagina_contacto')">
+                    <li class="menu__item" onclick="openCity(event, 'pagina_contacto')">
                         Contáctame</li>
                 </ul>
             </div>
 
-            <div class="caja_contenido_terciario">
-                <div class="terciario_redes">
+            <div class="contenido-redes">
+                <div class="redes-tarjetas">
 
                     <div class="tarjeta">
-                        <div class="tarjeta_imagen">
+                        <div class="tarjeta-imagen">
                             <i class="fa-brands fa-github fa-3x"></i>
                         </div>
-                        <div class="tarjeta_textos">
-                            <h4><span class="color_verde">@zacksPerez43</span></h4>
-                            <a href="https://github.com/zacksPerez43" class="pagina_link">Github <i
+                        <div class="tarjeta-textos">
+                            <h4><span class="color-verde">@zacksPerez43</span></h4>
+                            <a href="https://github.com/zacksPerez43" class="pagina-link">Github <i
                                     class="fa-solid fa-arrow-up-right-from-square"></i></a>
                         </div>
                     </div>
 
                     <div class="tarjeta">
-                        <div class="tarjeta_imagen">
+                        <div class="tarjeta-imagen">
                             <i class="fa-brands fa-instagram fa-3x"></i>
                         </div>
-                        <div class="tarjeta_textos">
-                            <h4><span class="color_verde">kotscarlos</span></h4>
-                            <a href="https://www.instagram.com/kotscarlos/">Instagram <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                        <div class="tarjeta-textos">
+                            <h4><span class="color-verde">kotscarlos</span></h4>
+                            <a href="https://www.instagram.com/kotscarlos/">Instagram <i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i> </a>
                         </div>
                     </div>
 
                     <div class="tarjeta">
-                        <div class="tarjeta_imagen">
+                        <div class="tarjeta-imagen">
                             <i class="fa-brands fa-whatsapp fa-3x"></i>
                         </div>
-                        <div class="tarjeta_textos">
-                            <h4><span class="color_verde"></span></h4>
-                            <a href="#">Whatsapp <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <div class="tarjeta-textos">
+                            <h4><span class="color-verde">Whatsapp</span></h4>
+                            <a href="https://api.whatsapp.com/send?phone=573113109661">Whatsapp<i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
-            
+
         </div>
+
     </section>
 
-    <section id="pagina_habilidades" class="caja tabcontent">
 
-        <div class="caja_contenido">
-            <div class="caja_contenido_principal">
-                <div class="caja_contenido_principal__contenido">
-                    <h1>Lenguajes de programación:</h1>
+    <section id="pagina_habilidades" class="caja tabcontent">
+        <div class="caja-contenido-habilidades config">
+
+
+            <div class="habilidades-grilla">
+
+                <div class="habilidades-titulo-principal">
+                    <h1 class="habilidades-titulo__principal">Habilidades</h1>
                 </div>
+
+                <div class="habilidades-programacion">
+                    <div class="programacion-grilla">
+
+                        <div class="habilidad">
+                            <div class="habilidad-titulo">
+                                <h1 class="habilidad__titulo">Python</h1>
+                            </div>
+                            <div class="habilidad-imagen">
+                                <img class="habilidad__imagen" src="images/lenguajes/python.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="habilidad">
+                            <div class="habilidad-titulo">
+                                <h1 class="habilidad__titulo">Java</h1>
+                            </div>
+                            <div class="habilidad-imagen">
+                                <img class="habilidad__imagen" src="images/lenguajes/java.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="habilidad">
+                            <div class="habilidad-titulo">
+                                <h1 class="habilidad__titulo">JavaScript</h1>
+                            </div>
+                            <div class="habilidad-imagen">
+                                <img class="habilidad__imagen" src="images/lenguajes/javascript.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="habilidad">
+                            <div class="habilidad-titulo">
+                                <h1 class="habilidad__titulo">SQL</h1>
+                            </div>
+                            <div class="habilidad-imagen">
+                                <img class="habilidad__imagen" src="images/lenguajes/sql.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="habilidades-frameworks">
+                    <div class="frameworks-grilla">
+                        <div class="habilidad">
+                            <div class="habilidad-titulo">
+                                <h1 class="habilidad__titulo">React</h1>
+                            </div>
+                            <div class="habilidad-imagen">
+                                <img class="habilidad__imagen" src="images/lenguajes/react.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="habilidad">
+                            <div class="habilidad-titulo">
+                                <h1 class="habilidad__titulo">Flask</h1>
+                            </div>
+                            <div class="habilidad-imagen">
+                                <img class="habilidad__imagen" src="images/lenguajes/flask.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="habilidad">
+                            <div class="habilidad-titulo">
+                                <h1 class="habilidad__titulo">Bootstrap</h1>
+                            </div>
+                            <div class="habilidad-imagen">
+                                <img class="habilidad__imagen" src="images/lenguajes/bootstrap.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="habilidades-otros">
+
+                    <div class="otros-grilla">
+                        <div class="habilidad">
+                            <div class="habilidad-titulo">
+                                <h1 class="habilidad__titulo">HTML5</h1>
+                            </div>
+                            <div class="habilidad-imagen">
+                                <img class="habilidad__imagen" src="images/lenguajes/html5.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="habilidad">
+                            <div class="habilidad-titulo">
+                                <h1 class="habilidad__titulo">CSS</h1>
+                            </div>
+                            <div class="habilidad-imagen">
+                                <img class="habilidad__imagen" src="images/lenguajes/css.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="habilidad">
+                            <div class="habilidad-titulo">
+                                <h1 class="habilidad__titulo">Git</h1>
+                            </div>
+                            <div class="habilidad-imagen">
+                                <img class="habilidad__imagen" src="images/lenguajes/git.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
             </div>
+
+        </div>
 
     </section>
 
     <section id="pagina_proyectos" class="caja tabcontent">
-        <div class="caja_contenido">
-            <div class="caja_contenido_principal">
-                <div class="caja_contenido_principal__contenido">
+        <div class="caja-contenido">
+            <div class="caja-contenido-principal">
+                <div class="caja-contenido-principal__contenido">
                     <h1>Proyectos</h1>
                 </div>
             </div>
